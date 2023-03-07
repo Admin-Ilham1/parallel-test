@@ -1,0 +1,55 @@
+==============================================================================
+TestCases Fils Projet1                                                        
+==============================================================================
+TestCases Fils Projet1.Test2 :: Cables et fils electrique-Fils de cable_Par...
+==============================================================================
+Cables et fils electrique-Fils de cable                                 
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\Ilham BOURHAIM\PycharmProjects\LoginTest\TestCases_Fils_Projet1\test2.robot:20
+    T:  Cables et fils electrique-Fils de cable    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\Ilham BOURHAIM\PycharmProjects\LoginTest\TestCases_Fils_Projet1\test2.robot:22
+      clicker sur Cables et fils electrique - Fils de cable    ${categories}    ${Câbles_fils_electrique}    ${FILS_DE_CABLE}
+      |  ${categories} = xpath://span[contains(text(),'Categories')] (str)
+      |  ${Câbles_fils_electrique} = xpath://header/div[1]/div[2]/div[1]/div[1]/ul[1]/li[2]/div[2]/div[1]/ul[1]/li[2]/a[1] (str)
+      |  ${FILS_DE_CABLE} = css:body.page-template-default.page.page-id-837.theme-flatsome.woocommerce-js.yith-wcan-pro.lightbox.nav-dropdown-has-shadow.nav-dropdown-has-border.page-template-blank.page-template-blank-php:nth-child(2) div.content-area section.section:nth-child(3) div.section-content.relative:nth-child(2) div.row div.col.medium-4.small-12.large-4:nth-child(3) div.col-inner.box-shadow-3:nth-child(1) div.row.row-collapse div.col.medium-8.large-8:nth-child(2) div.col-inner h3:nth-child(2) > a:nth-child(1) (str)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\Ilham BOURHAIM\PycharmProjects\LoginTest\Resources_Fils_Projet1\test2.robot:14
+      Click Element    ${categories}
+      |  ${categories} = xpath://span[contains(text(),'Categories')] (str)
+______________________________________________________________________________
+| FAIL |
+NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=110.0.5481.177)
+Stacktrace:
+Backtrace:
+	(No symbol) [0x005C37D3]
+	(No symbol) [0x00558B81]
+	(No symbol) [0x0045B36D]
+	(No symbol) [0x0043E5DA]
+	(No symbol) [0x004AF0CB]
+	(No symbol) [0x004C0A56]
+	(No symbol) [0x004AB216]
+	(No symbol) [0x00480D97]
+	(No symbol) [0x0048253D]
+	GetHandleVerifier [0x0083ABF2+2510930]
+	GetHandleVerifier [0x00868EC1+2700065]
+	GetHandleVerifier [0x0086C86C+2714828]
+	GetHandleVerifier [0x00673480+645344]
+	(No symbol) [0x00560FD2]
+	(No symbol) [0x00566C68]
+	(No symbol) [0x00566D4B]
+	(No symbol) [0x00570D6B]
+	BaseThreadInitThunk [0x75FF00F9+25]
+	RtlGetAppContainerNamedObjectPath [0x76F77BBE+286]
+	RtlGetAppContainerNamedObjectPath [0x76F77B8E+238]
+------------------------------------------------------------------------------
+TestCases Fils Projet1.Test2 :: Cables et fils electrique-Fils de ... | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+TestCases Fils Projet1                                                | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Output:  C:\Users\Ilham BOURHAIM\PycharmProjects\LoginTest\TestCases_Fils_Projet1\pabot_results\2\output.xml

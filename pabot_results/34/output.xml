@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.1 (Python 3.11.1 on win32)" generated="20230303 11:53:29.268" rpa="false" schemaversion="3">
+<suite id="s1" name="pythonProject13" source="C:\Users\Ilham BOURHAIM\PycharmProjects\pythonProject13">
+<suite id="s1-s1" name="LoginTest - TestCases" source="C:\Users\Ilham BOURHAIM\PycharmProjects\pythonProject13\LoginTest - TestCases">
+<suite id="s1-s1-s1" name="LoginTest1" source="C:\Users\Ilham BOURHAIM\PycharmProjects\pythonProject13\LoginTest - TestCases\LoginTest1.robot">
+<test id="s1-s1-s1-t1" name="LoginTest" line="9">
+<kw name="open the browser with URL" library="resources">
+<kw name="Create Webdriver" library="SeleniumLibrary">
+<arg>Chrome</arg>
+<doc>Creates an instance of Selenium WebDriver.</doc>
+<msg timestamp="20230303 11:53:29.855" level="INFO">Creating an instance of the Chrome WebDriver.</msg>
+<status status="PASS" starttime="20230303 11:53:29.844" endtime="20230303 11:53:31.853"/>
+</kw>
+<kw name="Go To" library="SeleniumLibrary">
+<arg>${URL}</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<msg timestamp="20230303 11:53:31.855" level="INFO">Opening url 'http://192.168.31.31/'</msg>
+<status status="PASS" starttime="20230303 11:53:31.853" endtime="20230303 11:53:41.474"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20230303 11:53:41.475" endtime="20230303 11:53:41.721"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>6</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230303 11:53:47.723" level="INFO">Slept 6 seconds</msg>
+<status status="PASS" starttime="20230303 11:53:41.722" endtime="20230303 11:53:47.723"/>
+</kw>
+<status status="PASS" starttime="20230303 11:53:29.844" endtime="20230303 11:53:47.723"/>
+</kw>
+<kw name="Se connecter" library="UnSu1_LoginKeywords">
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${Connexion}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230303 11:53:47.727" level="INFO">Clicking element 'xpath://span[contains(text(),' / S’enregistrer')]'.</msg>
+<status status="PASS" starttime="20230303 11:53:47.725" endtime="20230303 11:53:54.226"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230303 11:53:58.229" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20230303 11:53:54.227" endtime="20230303 11:53:58.229"/>
+</kw>
+<status status="PASS" starttime="20230303 11:53:47.724" endtime="20230303 11:53:58.230"/>
+</kw>
+<kw name="Entre a Valide UserName" library="UnSu1_LoginKeywords">
+<arg>${valid_UserName}</arg>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${txt_loginUserName}</arg>
+<arg>${valid_UserName}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20230303 11:53:58.232" level="INFO">Typing text 'ilhambourhaum1@gmail.com' into text field 'xpath://input[@id='username']'.</msg>
+<status status="PASS" starttime="20230303 11:53:58.232" endtime="20230303 11:53:58.484"/>
+</kw>
+<status status="PASS" starttime="20230303 11:53:58.231" endtime="20230303 11:53:58.484"/>
+</kw>
+<kw name="Entre a Valide Password" library="UnSu1_LoginKeywords">
+<arg>${Invalid_Password}</arg>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${txt_loginPassword}</arg>
+<arg>${Invalid_Password}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20230303 11:53:58.487" level="INFO">Typing text 'ilh1*' into text field 'xpath://input[@id='password']'.</msg>
+<status status="PASS" starttime="20230303 11:53:58.486" endtime="20230303 11:53:58.664"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230303 11:54:03.666" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20230303 11:53:58.664" endtime="20230303 11:54:03.666"/>
+</kw>
+<status status="PASS" starttime="20230303 11:53:58.485" endtime="20230303 11:54:03.666"/>
+</kw>
+<kw name="S'identifier and Verify the UnSuccessful Login" library="UnSu1_LoginKeywords">
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${Identification_Button}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230303 11:54:03.670" level="INFO">Clicking element 'xpath://button[contains(text(),'Identification')]'.</msg>
+<status status="PASS" starttime="20230303 11:54:03.666" endtime="20230303 11:54:08.340"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${UnSuccessful_Login}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20230303 11:54:08.340" endtime="20230303 11:54:08.510"/>
+</kw>
+<status status="PASS" starttime="20230303 11:54:03.666" endtime="20230303 11:54:08.511"/>
+</kw>
+<status status="PASS" starttime="20230303 11:53:29.844" endtime="20230303 11:54:08.512"/>
+</test>
+<doc>Unsuccessful Login</doc>
+<status status="PASS" starttime="20230303 11:53:29.363" endtime="20230303 11:54:08.513"/>
+</suite>
+<status status="PASS" starttime="20230303 11:53:29.360" endtime="20230303 11:54:08.516"/>
+</suite>
+<status status="PASS" starttime="20230303 11:53:29.299" endtime="20230303 11:54:08.518"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="pythonProject13">pythonProject13</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="LoginTest - TestCases">pythonProject13.LoginTest - TestCases</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1-s1" name="LoginTest1">pythonProject13.LoginTest - TestCases.LoginTest1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

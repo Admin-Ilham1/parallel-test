@@ -1,0 +1,31 @@
+==============================================================================
+projet1- FILS DE CABLE - Details de commande                                  
+==============================================================================
+projet1- FILS DE CABLE - Details de commande.test2-Cat2 :: Details de commande
+==============================================================================
+Details de commande_commande Non-valide                                 
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\Ilham BOURHAIM\PycharmProjects\pythonProject13\projet1- FILS DE CABLE - Details de commande\test2-Cat2.robot:11
+    T:  Details de commande_commande Non-valide    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\Ilham BOURHAIM\PycharmProjects\pythonProject13\projet1- FILS DE CABLE - Details de commande\test2-Cat2.robot:14
+      choisir un produit et passer directement la commande    ${Ajout_Panier}    ${Commander1}    ${Détails_de_facturation}
+      |  ${Ajout_Panier} = xpath://button[contains(text(),'Ajouter au panier')] (str)
+      |  ${Commander1} = xpath://header/div[1]/div[1]/div[1]/div[4]/ul[1]/li[3]/ul[1]/li[1]/div[1]/p[2]/a[2] (str)
+      |  ${Détails_de_facturation} = xpath://h3[contains(text(),'Détails de facturation')] (str)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\Ilham BOURHAIM\PycharmProjects\pythonProject13\PO\Choose2.robot:12
+      Click Element    ${Commander1}
+      |  ${Commander1} = xpath://header/div[1]/div[1]/div[1]/div[4]/ul[1]/li[3]/ul[1]/li[1]/div[1]/p[2]/a[2] (str)
+______________________________________________________________________________
+| FAIL |
+Element with locator 'xpath://header/div[1]/div[1]/div[1]/div[4]/ul[1]/li[3]/ul[1]/li[1]/div[1]/p[2]/a[2]' not found.
+------------------------------------------------------------------------------
+projet1- FILS DE CABLE - Details de commande.test2-Cat2 :: Details... | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+projet1- FILS DE CABLE - Details de commande                          | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Output:  C:\Users\Ilham BOURHAIM\PycharmProjects\pythonProject13\projet1- FILS DE CABLE - Details de commande\pabot_results\7\output.xml

@@ -1,0 +1,32 @@
+==============================================================================
+pythonProject13                                                               
+==============================================================================
+pythonProject13.Projet1- FILS DE CABLE - Filtre TestCases                     
+==============================================================================
+pythonProject13.Projet1- FILS DE CABLE - Filtre TestCases.test1-Cat2 :: Cab...
+==============================================================================
+Cables et fils electrique-Fils de cable                                 
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\Ilham BOURHAIM\PycharmProjects\pythonProject13\Projet1- FILS DE CABLE - Filtre_TestCases\test1-Cat2.robot:9
+    T:  Cables et fils electrique-Fils de cable    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\Ilham BOURHAIM\PycharmProjects\pythonProject13\Projet1- FILS DE CABLE - Filtre_TestCases\test1-Cat2.robot:11
+      clicker sur Cables et fils electrique - Fils de cable    ${Categories}    ${Câbles_fils_electrique}    ${FILS_DE_CABLE0}
+      |  ${Categories} = <Unable to define variable value>
+      |  ${Câbles_fils_electrique} = <Unable to define variable value>
+      |  ${FILS_DE_CABLE0} = <Unable to define variable value>
+______________________________________________________________________________
+| FAIL |
+No keyword with name 'clicker sur Cables et fils electrique - Fils de cable' found.
+------------------------------------------------------------------------------
+pythonProject13.Projet1- FILS DE CABLE - Filtre TestCases.test1-Ca... | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+pythonProject13.Projet1- FILS DE CABLE - Filtre TestCases             | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+pythonProject13                                                       | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Output:  C:\Users\Ilham BOURHAIM\PycharmProjects\pythonProject13\pabot_results\51\output.xml

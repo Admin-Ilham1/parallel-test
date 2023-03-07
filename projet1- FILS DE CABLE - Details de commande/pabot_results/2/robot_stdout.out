@@ -1,0 +1,29 @@
+==============================================================================
+projet1- FILS DE CABLE - Details de commande                                  
+==============================================================================
+projet1- FILS DE CABLE - Details de commande.Test3 :: Details de commande     
+==============================================================================
+Details de commande_commande Non-valide                                 
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\Ilham BOURHAIM\PycharmProjects\pythonProject13\projet1- FILS DE CABLE - Details de commande\test3.robot:11
+    T:  Details de commande_commande Non-valide    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\Ilham BOURHAIM\PycharmProjects\pythonProject13\projet1- FILS DE CABLE - Details de commande\test3.robot:16
+      Wait until it checks and display -Commande non Valide-    ${Détails_de_facturation}
+      |  ${Détails_de_facturation} = xpath://h3[contains(text(),'Détails de facturation')] (str)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\Ilham BOURHAIM\PycharmProjects\pythonProject13\PO\CommandePage3.robot:41
+      Wait Until Element Is Visible    ${Détails_de_facturation}
+      |  ${Détails_de_facturation} = xpath://h3[contains(text(),'Détails de facturation')] (str)
+______________________________________________________________________________
+| FAIL |
+Element 'xpath://h3[contains(text(),'Détails de facturation')]' not visible after 5 seconds.
+------------------------------------------------------------------------------
+projet1- FILS DE CABLE - Details de commande.Test3 :: Details de c... | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+projet1- FILS DE CABLE - Details de commande                          | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Output:  C:\Users\Ilham BOURHAIM\PycharmProjects\pythonProject13\projet1- FILS DE CABLE - Details de commande\pabot_results\2\output.xml

@@ -1,0 +1,31 @@
+==============================================================================
+projet1- FILS DE CABLE - Quantité                                             
+==============================================================================
+projet1- FILS DE CABLE - Quantité.test2-Quantité :: Cables et fils electriq...
+==============================================================================
+Cables et fils electrique-Fils de cable                                 
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\Ilham BOURHAIM\PycharmProjects\pythonProject13\projet1- FILS DE CABLE - Quantité\test2-Quantité.robot:10
+    T:  Cables et fils electrique-Fils de cable    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\Ilham BOURHAIM\PycharmProjects\pythonProject13\projet1- FILS DE CABLE - Quantité\test2-Quantité.robot:14
+      Eliminer le produit (0 Produits)    ${Soustracter_nbr_produit}    ${Mettre_à_jour_panier}    ${Retour_à_la_boutique}
+      |  ${Soustracter_nbr_produit} = xpath://tbody/tr[1]/td[5]/div[1]/input[1] (str)
+      |  ${Mettre_à_jour_panier} = xpath: // button[contains(text(), 'Mettre à jour le panier')] (str)
+      |  ${Retour_à_la_boutique} = xpath://a[contains(text(),'Retour à la boutique')] (str)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\Ilham BOURHAIM\PycharmProjects\pythonProject13\PO\Choose2_Quantite.robot:23
+      Click Element    ${Retour_à_la_boutique}
+      |  ${Retour_à_la_boutique} = xpath://a[contains(text(),'Retour à la boutique')] (str)
+______________________________________________________________________________
+| FAIL |
+Element with locator 'xpath://a[contains(text(),'Retour à la boutique')]' not found.
+------------------------------------------------------------------------------
+projet1- FILS DE CABLE - Quantité.test2-Quantité :: Cables et fils... | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+projet1- FILS DE CABLE - Quantité                                     | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Output:  C:\Users\Ilham BOURHAIM\PycharmProjects\pythonProject13\projet1- FILS DE CABLE - Quantité\pabot_results\1\output.xml

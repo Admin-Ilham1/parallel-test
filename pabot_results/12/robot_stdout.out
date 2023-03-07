@@ -1,0 +1,40 @@
+==============================================================================
+pythonProject13                                                               
+==============================================================================
+pythonProject13.projet1- FILS DE CABLE - Details de commande                  
+==============================================================================
+pythonProject13.projet1- FILS DE CABLE - Details de commande.Test1 :: Cable...
+==============================================================================
+Details de commande_commande valide                                     
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\Ilham BOURHAIM\PycharmProjects\pythonProject13\projet1- FILS DE CABLE - Details de commande\test1.robot:10
+    T:  Details de commande_commande valide    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\Ilham BOURHAIM\PycharmProjects\pythonProject13\projet1- FILS DE CABLE - Details de commande\test1.robot:13
+      choisir un produit et l ajouter directement dans le panier + Voir le panier (2 produits)    ${Ajout_Panier}    ${Voir_panier}    ${Ajouter_nbr_produit}    ${Mettre_à_jour_panier}    ${Panier_mis_à_jour}    ${Valider_Commande}    ${Détails_de_facturation}
+      |  ${Ajout_Panier} = xpath://button[contains(text(),'Ajouter au panier')] (str)
+      |  ${Voir_panier} = xpath://header/div[1]/div[1]/div[1]/div[4]/ul[1]/li[3]/ul[1]/li[1]/div[1]/p[2]/a[1] (str)
+      |  ${Ajouter_nbr_produit} = xpath://tbody/tr[1]/td[5]/div[1]/input[3] (str)
+      |  ${Mettre_à_jour_panier} = xpath: // button[contains(text(), 'Mettre à jour le panier')] (str)
+      |  ${Panier_mis_à_jour} = xpath://body/div[@id='wrapper']/main[@id='main']/div[2]/div[1]/div[1]/div[1]/div[1] (str)
+      |  ${Valider_Commande} = xpath://a[contains(text(),'Valider la commande')] (str)
+      |  ${Détails_de_facturation} = xpath://h3[contains(text(),'Détails de facturation')] (str)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\Ilham BOURHAIM\PycharmProjects\pythonProject13\PO\Choose.robot:12
+      Click Element    ${Voir_panier}
+      |  ${Voir_panier} = xpath://header/div[1]/div[1]/div[1]/div[4]/ul[1]/li[3]/ul[1]/li[1]/div[1]/p[2]/a[1] (str)
+______________________________________________________________________________
+| FAIL |
+Element with locator 'xpath://header/div[1]/div[1]/div[1]/div[4]/ul[1]/li[3]/ul[1]/li[1]/div[1]/p[2]/a[1]' not found.
+------------------------------------------------------------------------------
+pythonProject13.projet1- FILS DE CABLE - Details de commande.Test1... | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+pythonProject13.projet1- FILS DE CABLE - Details de commande          | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+pythonProject13                                                       | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Output:  C:\Users\Ilham BOURHAIM\PycharmProjects\pythonProject13\pabot_results\12\output.xml

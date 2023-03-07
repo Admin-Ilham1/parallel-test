@@ -1,0 +1,74 @@
+datasources:aed761a043bfb8aeed79f2bfb05fd988df26f9f9
+commandlineoptions:97d170e1550eee4afc0af065b78cda302a97674c
+suitesfrom:no-suites-from-option
+file:191816524d12756289d0a9618b4fcded4088555e
+--suite pythonProject13.projet1- FILS DE CABLE - Commande.Test1
+--suite pythonProject13.projet1- FILS DE CABLE - Commande.Test2
+--suite pythonProject13.projet1- FILS DE CABLE - Commande.Test3
+--suite pythonProject13.projet1- FILS DE CABLE - Commande.Test4
+--suite pythonProject13.projet1- FILS DE CABLE - Commande.test1-Acc
+--suite pythonProject13.projet1- FILS DE CABLE - Commande.test1-Cat2
+--suite pythonProject13.projet1- FILS DE CABLE - Commande.test2-Acc
+--suite pythonProject13.projet1- FILS DE CABLE - Commande.test2-Cat2
+--suite pythonProject13.projet1- FILS DE CABLE - Commande.test3-Acc
+--suite pythonProject13.projet1- FILS DE CABLE - Commande.test3-Cat2
+--suite pythonProject13.projet1- FILS DE CABLE - Commande.test4-Acc
+--suite pythonProject13.projet1- FILS DE CABLE - Commande.test4-Cat2
+--suite pythonProject13.projet1- FILS DE CABLE - Details de commande.Test1
+--suite pythonProject13.projet1- FILS DE CABLE - Details de commande.Test2
+--suite pythonProject13.projet1- FILS DE CABLE - Details de commande.Test3
+--suite pythonProject13.projet1- FILS DE CABLE - Details de commande.Test4
+--suite pythonProject13.projet1- FILS DE CABLE - Details de commande.test1-Acc
+--suite pythonProject13.projet1- FILS DE CABLE - Details de commande.test1-Cat2
+--suite pythonProject13.projet1- FILS DE CABLE - Details de commande.test2-Acc
+--suite pythonProject13.projet1- FILS DE CABLE - Details de commande.test2-Cat2
+--suite pythonProject13.projet1- FILS DE CABLE - Details de commande.test3-Acc
+--suite pythonProject13.projet1- FILS DE CABLE - Details de commande.test3-Cat2
+--suite pythonProject13.projet1- FILS DE CABLE - Details de commande.test4-Acc
+--suite pythonProject13.projet1- FILS DE CABLE - Details de commande.test4-Cat2
+--suite pythonProject13.projet1- FILS DE CABLE - Quantité.test1-Quantité
+--suite pythonProject13.projet1- FILS DE CABLE - Quantité.test2-Quantité
+--suite pythonProject13.projet1- FILS DE CABLE - Quantité.test3-Quantité
+--suite pythonProject13.projet1- FILS DE CABLE - Quantité.test4-Quantité
+--suite pythonProject13.projet1- FILS DE CABLE - Quantité.test5-1-Quantité
+--suite pythonProject13.projet1- FILS DE CABLE - Quantité.test5-2-Quantité
+--suite pythonProject13.projet1- FILS DE CABLE - Quantité.test5-3-Quantité
+--suite pythonProject13.projet1- FILS DE CABLE - Quantité.test5-4-Quantité
+--suite pythonProject13.projet1- FILS DE CABLE - Quantité.test5-Quantité
+--suite pythonProject13.LoginTest - TestCases.LoginTest
+--suite pythonProject13.LoginTest - TestCases.LoginTest1
+--suite pythonProject13.LoginTest - TestCases.LoginTest2
+--suite pythonProject13.LoginTest - TestCases.LoginTest3
+--suite pythonProject13.Projet1- FILS DE CABLE - Filtre TestCases.Test1
+--suite pythonProject13.Projet1- FILS DE CABLE - Filtre TestCases.Test1-1
+--suite pythonProject13.Projet1- FILS DE CABLE - Filtre TestCases.Test2
+--suite pythonProject13.Projet1- FILS DE CABLE - Filtre TestCases.Test2-1
+--suite pythonProject13.Projet1- FILS DE CABLE - Filtre TestCases.Test3
+--suite pythonProject13.Projet1- FILS DE CABLE - Filtre TestCases.Test3-1
+--suite pythonProject13.Projet1- FILS DE CABLE - Filtre TestCases.Test4
+--suite pythonProject13.Projet1- FILS DE CABLE - Filtre TestCases.Test5
+--suite pythonProject13.Projet1- FILS DE CABLE - Filtre TestCases.Test6
+--suite pythonProject13.Projet1- FILS DE CABLE - Filtre TestCases.Test7
+--suite pythonProject13.Projet1- FILS DE CABLE - Filtre TestCases.Test8
+--suite pythonProject13.Projet1- FILS DE CABLE - Filtre TestCases.test1-1 Acc
+--suite pythonProject13.Projet1- FILS DE CABLE - Filtre TestCases.test1-1 Cat2
+--suite pythonProject13.Projet1- FILS DE CABLE - Filtre TestCases.test1-Acc
+--suite pythonProject13.Projet1- FILS DE CABLE - Filtre TestCases.test1-Cat2
+--suite pythonProject13.Projet1- FILS DE CABLE - Filtre TestCases.test2-1 Acc
+--suite pythonProject13.Projet1- FILS DE CABLE - Filtre TestCases.test2-1 Cat2
+--suite pythonProject13.Projet1- FILS DE CABLE - Filtre TestCases.test2-Acc
+--suite pythonProject13.Projet1- FILS DE CABLE - Filtre TestCases.test2-Cat2
+--suite pythonProject13.Projet1- FILS DE CABLE - Filtre TestCases.test3 Acc
+--suite pythonProject13.Projet1- FILS DE CABLE - Filtre TestCases.test3-1 Acc
+--suite pythonProject13.Projet1- FILS DE CABLE - Filtre TestCases.test3-1 Cat2
+--suite pythonProject13.Projet1- FILS DE CABLE - Filtre TestCases.test3-Cat2
+--suite pythonProject13.Projet1- FILS DE CABLE - Filtre TestCases.test4-Acc
+--suite pythonProject13.Projet1- FILS DE CABLE - Filtre TestCases.test4-Cat2
+--suite pythonProject13.Projet1- FILS DE CABLE - Filtre TestCases.test5-Acc
+--suite pythonProject13.Projet1- FILS DE CABLE - Filtre TestCases.test5-Cat2
+--suite pythonProject13.Projet1- FILS DE CABLE - Filtre TestCases.test6-Acc
+--suite pythonProject13.Projet1- FILS DE CABLE - Filtre TestCases.test6-Cat2
+--suite pythonProject13.Projet1- FILS DE CABLE - Filtre TestCases.test7-Acc
+--suite pythonProject13.Projet1- FILS DE CABLE - Filtre TestCases.test7-Cat2
+--suite pythonProject13.Projet1- FILS DE CABLE - Filtre TestCases.test8-Acc
+--suite pythonProject13.Projet1- FILS DE CABLE - Filtre TestCases.test8-Cat2

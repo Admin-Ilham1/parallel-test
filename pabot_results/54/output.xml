@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.1 (Python 3.11.1 on win32)" generated="20230303 12:01:08.954" rpa="false" schemaversion="3">
+<suite id="s1" name="pythonProject13" source="C:\Users\Ilham BOURHAIM\PycharmProjects\pythonProject13">
+<suite id="s1-s1" name="Projet1- FILS DE CABLE - Filtre TestCases" source="C:\Users\Ilham BOURHAIM\PycharmProjects\pythonProject13\Projet1- FILS DE CABLE - Filtre_TestCases">
+<suite id="s1-s1-s1" name="test2-Acc" source="C:\Users\Ilham BOURHAIM\PycharmProjects\pythonProject13\Projet1- FILS DE CABLE - Filtre_TestCases\test2-Acc.robot">
+<test id="s1-s1-s1-t1" name="Cables et fils electrique-Fils de cable" line="20">
+<kw name="open the browser with URL">
+<msg timestamp="20230303 12:01:09.343" level="FAIL">Multiple keywords with name 'open the browser with URL' found. Give the full name of the keyword you want to use:
+    resources.open the browser with URL
+    test2-Acc-filtre.open the browser with URL</msg>
+<status status="FAIL" starttime="20230303 12:01:09.333" endtime="20230303 12:01:09.343"/>
+</kw>
+<kw name="clicker sur Cables et fils electrique - Fils de cable" library="test2-Acc-filtre">
+<arg>${Câbles_fils_electrique1}</arg>
+<arg>${FILS_DE_CABLE1}</arg>
+<status status="NOT RUN" starttime="20230303 12:01:09.343" endtime="20230303 12:01:09.343"/>
+</kw>
+<kw name="filtrer les produits by attribute" library="test2-Acc-filtre">
+<arg>${Fabricant}</arg>
+<arg>${Couleur}</arg>
+<arg>${Isolation}</arg>
+<arg>${Le_type}</arg>
+<arg>${Matériau_conducteur}</arg>
+<arg>${Mesure_du_fil}</arg>
+<arg>${Taille_Dimension}</arg>
+<arg>${Température}</arg>
+<arg>${Tension}</arg>
+<status status="NOT RUN" starttime="20230303 12:01:09.343" endtime="20230303 12:01:09.343"/>
+</kw>
+<status status="FAIL" starttime="20230303 12:01:09.333" endtime="20230303 12:01:09.343">Multiple keywords with name 'open the browser with URL' found. Give the full name of the keyword you want to use:
+    resources.open the browser with URL
+    test2-Acc-filtre.open the browser with URL</status>
+</test>
+<doc>Cables et fils electrique-Fils de cable_Partie des filtre</doc>
+<status status="FAIL" starttime="20230303 12:01:08.994" endtime="20230303 12:01:09.343"/>
+</suite>
+<status status="FAIL" starttime="20230303 12:01:08.994" endtime="20230303 12:01:09.348"/>
+</suite>
+<status status="FAIL" starttime="20230303 12:01:08.974" endtime="20230303 12:01:09.348"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="pythonProject13">pythonProject13</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1" name="Projet1- FILS DE CABLE - Filtre TestCases">pythonProject13.Projet1- FILS DE CABLE - Filtre TestCases</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1-s1" name="test2-Acc">pythonProject13.Projet1- FILS DE CABLE - Filtre TestCases.test2-Acc</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

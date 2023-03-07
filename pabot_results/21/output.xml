@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.1 (Python 3.11.1 on win32)" generated="20230303 11:48:29.549" rpa="false" schemaversion="3">
+<suite id="s1" name="pythonProject13" source="C:\Users\Ilham BOURHAIM\PycharmProjects\pythonProject13">
+<suite id="s1-s1" name="projet1- FILS DE CABLE - Details de commande" source="C:\Users\Ilham BOURHAIM\PycharmProjects\pythonProject13\projet1- FILS DE CABLE - Details de commande">
+<suite id="s1-s1-s1" name="test3-Cat2" source="C:\Users\Ilham BOURHAIM\PycharmProjects\pythonProject13\projet1- FILS DE CABLE - Details de commande\test3-Cat2.robot">
+<test id="s1-s1-s1-t1" name="Details de commande_commande Non-valide" line="11">
+<kw name="open the browser with URL" library="resources">
+<kw name="Create Webdriver" library="SeleniumLibrary">
+<arg>Chrome</arg>
+<doc>Creates an instance of Selenium WebDriver.</doc>
+<msg timestamp="20230303 11:48:30.126" level="INFO">Creating an instance of the Chrome WebDriver.</msg>
+<status status="PASS" starttime="20230303 11:48:30.126" endtime="20230303 11:48:32.597"/>
+</kw>
+<kw name="Go To" library="SeleniumLibrary">
+<arg>${URL}</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<msg timestamp="20230303 11:48:32.598" level="INFO">Opening url 'http://192.168.31.31/'</msg>
+<status status="PASS" starttime="20230303 11:48:32.597" endtime="20230303 11:48:44.604"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20230303 11:48:44.605" endtime="20230303 11:48:44.824"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>6</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230303 11:48:50.827" level="INFO">Slept 6 seconds</msg>
+<status status="PASS" starttime="20230303 11:48:44.825" endtime="20230303 11:48:50.827"/>
+</kw>
+<status status="PASS" starttime="20230303 11:48:30.125" endtime="20230303 11:48:50.827"/>
+</kw>
+<kw name="click an Cables et fils electrique-Fils de cable" library="clickAn_Cat2">
+<arg>${Categories}</arg>
+<arg>${Câbles_fils}</arg>
+<arg>${FILS_CABLE0}</arg>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${Categories}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230303 11:48:50.835" level="INFO">Clicking element 'xpath://span[contains(text(),'Categories')]'.</msg>
+<status status="PASS" starttime="20230303 11:48:50.829" endtime="20230303 11:48:51.025"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230303 11:48:56.027" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20230303 11:48:51.025" endtime="20230303 11:48:56.027"/>
+</kw>
+<kw name="Mouse Down" library="SeleniumLibrary">
+<arg>${Câbles_fils}</arg>
+<doc>Simulates pressing the left mouse button on the element ``locator``.</doc>
+<msg timestamp="20230303 11:48:56.027" level="INFO">Simulating Mouse Down on element 'xpath://header/div[1]/div[2]/div[1]/div[1]/ul[1]/li[2]/div[2]/div[1]/ul[1]/li[2]/a[1]'.</msg>
+<status status="PASS" starttime="20230303 11:48:56.027" endtime="20230303 11:48:56.325"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230303 11:49:00.326" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20230303 11:48:56.325" endtime="20230303 11:49:00.326"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${FILS_CABLE0}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230303 11:49:00.330" level="INFO">Clicking element 'xpath://a[contains(text(),'Fils de cable')]'.</msg>
+<status status="PASS" starttime="20230303 11:49:00.326" endtime="20230303 11:49:02.329"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230303 11:49:07.331" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20230303 11:49:02.330" endtime="20230303 11:49:07.331"/>
+</kw>
+<status status="PASS" starttime="20230303 11:48:50.828" endtime="20230303 11:49:07.331"/>
+</kw>
+<kw name="clicker sur un produit et voir le panier" library="Choose3">
+<arg>${clicker_Produit}</arg>
+<arg>${Ajout_Panier}</arg>
+<arg>${Voirr_Panier}</arg>
+<arg>${Valider_Commande}</arg>
+<kw name="Sleep" library="BuiltIn">
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230303 11:49:12.333" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20230303 11:49:07.333" endtime="20230303 11:49:12.333"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${clicker_Produit}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230303 11:49:12.335" level="INFO">Clicking element 'xpath://a[contains(text(),'cable souple 16mm')]'.</msg>
+<status status="PASS" starttime="20230303 11:49:12.333" endtime="20230303 11:49:15.545"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230303 11:49:20.547" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20230303 11:49:15.545" endtime="20230303 11:49:20.547"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${Ajout_Panier}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230303 11:49:20.548" level="INFO">Clicking element 'xpath://button[contains(text(),'Ajouter au panier')]'.</msg>
+<status status="PASS" starttime="20230303 11:49:20.547" endtime="20230303 11:49:22.454"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230303 11:49:25.454" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20230303 11:49:22.454" endtime="20230303 11:49:25.454"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${Voirr_Panier}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230303 11:49:25.454" level="INFO">Clicking element 'xpath://header/div[1]/div[1]/div[1]/div[4]/ul[1]/li[3]/ul[1]/li[1]/div[1]/p[2]/a[1]'.</msg>
+<status status="PASS" starttime="20230303 11:49:25.454" endtime="20230303 11:49:27.238"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230303 11:49:32.239" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20230303 11:49:27.238" endtime="20230303 11:49:32.239"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${Valider_Commande}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230303 11:49:32.239" level="INFO">Clicking element 'xpath://a[contains(text(),'Valider la commande')]'.</msg>
+<status status="PASS" starttime="20230303 11:49:32.239" endtime="20230303 11:49:35.295"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230303 11:49:39.297" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20230303 11:49:35.295" endtime="20230303 11:49:39.297"/>
+</kw>
+<status status="PASS" starttime="20230303 11:49:07.331" endtime="20230303 11:49:39.297"/>
+</kw>
+<kw name="entrer les details de la commande (tele - Email = Correcte)" library="CommandePage3">
+<arg>${Prénom}</arg>
+<arg>${Nom}</arg>
+<arg>${Nom_d_entreprise}</arg>
+<arg>${Numéro_nom_de_rue}</arg>
+<arg>${Ville}</arg>
+<arg>${Région_Département}</arg>
+<arg>${Code_postal}</arg>
+<arg>${Téléphone}</arg>
+<arg>${E_mail}</arg>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${Prénom1}</arg>
+<arg>${Prénom}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20230303 11:49:39.297" level="INFO">Typing text 'Ilh1' into text field ' xpath://input[@id='billing_first_name']'.</msg>
+<status status="PASS" starttime="20230303 11:49:39.297" endtime="20230303 11:49:39.451"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${Nom1}</arg>
+<arg>${Nom}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20230303 11:49:39.451" level="INFO">Typing text 'Brh3' into text field 'xpath://input[@id='billing_last_name']'.</msg>
+<status status="PASS" starttime="20230303 11:49:39.451" endtime="20230303 11:49:39.608"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230303 11:49:44.610" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20230303 11:49:39.609" endtime="20230303 11:49:44.611"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${Nom_d_entreprise1}</arg>
+<arg>${Nom_d_entreprise}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20230303 11:49:44.619" level="INFO">Typing text '/?&gt;' into text field 'xpath://input[@id='billing_company']'.</msg>
+<status status="PASS" starttime="20230303 11:49:44.612" endtime="20230303 11:49:45.220"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230303 11:49:50.221" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20230303 11:49:45.221" endtime="20230303 11:49:50.221"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${Numéro_nom_de_rue1}</arg>
+<arg>${Numéro_nom_de_rue}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20230303 11:49:50.224" level="INFO">Typing text '..?' into text field 'xpath://input[@id='billing_address_1']'.</msg>
+<status status="PASS" starttime="20230303 11:49:50.222" endtime="20230303 11:49:50.505"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${Ville1}</arg>
+<arg>${Ville}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20230303 11:49:50.508" level="INFO">Typing text '123' into text field 'xpath://input[@id='billing_city']'.</msg>
+<status status="PASS" starttime="20230303 11:49:50.505" endtime="20230303 11:49:50.712"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${Région_Département1}</arg>
+<arg>${Région_Département}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20230303 11:49:50.714" level="INFO">Typing text 'x23' into text field 'xpath://input[@id='billing_state']'.</msg>
+<status status="PASS" starttime="20230303 11:49:50.713" endtime="20230303 11:49:51.063"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${Code_postal1}</arg>
+<arg>${Code_postal}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20230303 11:49:51.065" level="INFO">Typing text 'ABC' into text field 'xpath://input[@id='billing_postcode']'.</msg>
+<status status="PASS" starttime="20230303 11:49:51.064" endtime="20230303 11:49:51.916"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230303 11:49:55.917" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20230303 11:49:51.917" endtime="20230303 11:49:55.917"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${Téléphone1}</arg>
+<arg>${Téléphone}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20230303 11:49:55.917" level="INFO">Typing text '0651780789' into text field 'xpath://input[@id='billing_phone']'.</msg>
+<status status="PASS" starttime="20230303 11:49:55.917" endtime="20230303 11:49:56.128"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${E_mail1}</arg>
+<arg>${E_mail}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20230303 11:49:56.128" level="INFO">Typing text 'IlhamBrh1@gmail.com' into text field 'xpath://input[@id='billing_email']'.</msg>
+<status status="PASS" starttime="20230303 11:49:56.128" endtime="20230303 11:49:56.309"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230303 11:50:00.313" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20230303 11:49:56.309" endtime="20230303 11:50:00.313"/>
+</kw>
+<kw name="Select Checkbox" library="SeleniumLibrary">
+<arg>${Accepter_les_conditions}</arg>
+<doc>Selects the checkbox identified by ``locator``.</doc>
+<msg timestamp="20230303 11:50:00.314" level="INFO">Selecting checkbox 'id:terms'.</msg>
+<status status="PASS" starttime="20230303 11:50:00.313" endtime="20230303 11:50:00.699"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230303 11:50:05.702" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20230303 11:50:00.700" endtime="20230303 11:50:05.702"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${Commander}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230303 11:50:05.705" level="INFO">Clicking element 'xpath://button[@id='place_order']'.</msg>
+<status status="PASS" starttime="20230303 11:50:05.703" endtime="20230303 11:50:06.250"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>7</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230303 11:50:13.257" level="INFO">Slept 7 seconds</msg>
+<status status="PASS" starttime="20230303 11:50:06.250" endtime="20230303 11:50:13.258"/>
+</kw>
+<status status="PASS" starttime="20230303 11:49:39.297" endtime="20230303 11:50:13.260"/>
+</kw>
+<kw name="Wait until it checks and display -Commande non Valide-" library="CommandePage3">
+<arg>${Détails_de_facturation}</arg>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${Détails_de_facturation}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<msg timestamp="20230303 11:50:18.783" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-1.png"&gt;&lt;img src="selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg timestamp="20230303 11:50:18.784" level="FAIL">Element 'xpath://h3[contains(text(),'Détails de facturation')]' not visible after 5 seconds.</msg>
+<status status="FAIL" starttime="20230303 11:50:13.262" endtime="20230303 11:50:18.790"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230303 11:50:18.791" endtime="20230303 11:50:18.791"/>
+</kw>
+<status status="FAIL" starttime="20230303 11:50:13.261" endtime="20230303 11:50:18.792"/>
+</kw>
+<status status="FAIL" starttime="20230303 11:48:30.124" endtime="20230303 11:50:18.792">Element 'xpath://h3[contains(text(),'Détails de facturation')]' not visible after 5 seconds.</status>
+</test>
+<doc>Details de commande</doc>
+<status status="FAIL" starttime="20230303 11:48:29.603" endtime="20230303 11:50:18.794"/>
+</suite>
+<status status="FAIL" starttime="20230303 11:48:29.600" endtime="20230303 11:50:18.796"/>
+</suite>
+<status status="FAIL" starttime="20230303 11:48:29.564" endtime="20230303 11:50:18.799"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="pythonProject13">pythonProject13</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1" name="projet1- FILS DE CABLE - Details de commande">pythonProject13.projet1- FILS DE CABLE - Details de commande</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1-s1" name="test3-Cat2">pythonProject13.projet1- FILS DE CABLE - Details de commande.test3-Cat2</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

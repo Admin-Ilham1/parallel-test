@@ -1,0 +1,31 @@
+==============================================================================
+pythonProject13                                                               
+==============================================================================
+pythonProject13.Projet1- FILS DE CABLE - Filtre TestCases                     
+==============================================================================
+pythonProject13.Projet1- FILS DE CABLE - Filtre TestCases.test2-Acc :: Cabl...
+==============================================================================
+Cables et fils electrique-Fils de cable                                 
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\Ilham BOURHAIM\PycharmProjects\pythonProject13\Projet1- FILS DE CABLE - Filtre_TestCases\test2-Acc.robot:20
+    T:  Cables et fils electrique-Fils de cable    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\Ilham BOURHAIM\PycharmProjects\pythonProject13\Projet1- FILS DE CABLE - Filtre_TestCases\test2-Acc.robot:21
+      open the browser with URL    
+______________________________________________________________________________
+| FAIL |
+Multiple keywords with name 'open the browser with URL' found. Give the full name of the keyword you want to use:
+    resources.open the browser with URL
+    test2-Acc-filtre.open the browser with URL
+------------------------------------------------------------------------------
+pythonProject13.Projet1- FILS DE CABLE - Filtre TestCases.test2-Ac... | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+pythonProject13.Projet1- FILS DE CABLE - Filtre TestCases             | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+pythonProject13                                                       | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Output:  C:\Users\Ilham BOURHAIM\PycharmProjects\pythonProject13\pabot_results\54\output.xml

@@ -1,0 +1,42 @@
+==============================================================================
+pythonProject13                                                               
+==============================================================================
+pythonProject13.Projet1- FILS DE CABLE - Filtre TestCases                     
+==============================================================================
+pythonProject13.Projet1- FILS DE CABLE - Filtre TestCases.test8-Acc :: Cabl...
+==============================================================================
+Alimentations-Batteries                                                 
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\Ilham BOURHAIM\PycharmProjects\pythonProject13\Projet1- FILS DE CABLE - Filtre_TestCases\test8-Acc.robot:8
+    T:  Alimentations-Batteries    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\Ilham BOURHAIM\PycharmProjects\pythonProject13\Projet1- FILS DE CABLE - Filtre_TestCases\test8-Acc.robot:11
+      filtrer les produits by attribute    ${Fabricant}    ${Couleur}    ${Isolation}    ${Le_type}    ${Matériau_conducteur}    ${Mesure_du_fil}    ${Taille_Dimension}    ${Température}    ${Tension}
+      |  ${Fabricant} = 8 (str)
+      |  ${Couleur} = 1 (str)
+      |  ${Isolation} = 1 (str)
+      |  ${Le_type} = 1 (str)
+      |  ${Matériau_conducteur} = 1 (str)
+      |  ${Mesure_du_fil} = 1 (str)
+      |  ${Taille_Dimension} = 1 (str)
+      |  ${Température} = 1 (str)
+      |  ${Tension} = 1 (str)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\Ilham BOURHAIM\PycharmProjects\pythonProject13\PO\test8-Acc-filtre.robot:49
+      Wait Until Element Is Visible    ${Produit_1_9}
+      |  ${Produit_1_9} = xpath://a[contains(text(),'cable souple 16mm')] (str)
+______________________________________________________________________________
+| FAIL |
+Element 'xpath://a[contains(text(),'cable souple 16mm')]' not visible after 5 seconds.
+------------------------------------------------------------------------------
+pythonProject13.Projet1- FILS DE CABLE - Filtre TestCases.test8-Ac... | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+pythonProject13.Projet1- FILS DE CABLE - Filtre TestCases             | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+pythonProject13                                                       | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Output:  C:\Users\Ilham BOURHAIM\PycharmProjects\pythonProject13\pabot_results\68\output.xml

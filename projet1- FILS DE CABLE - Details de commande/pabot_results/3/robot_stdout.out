@@ -1,0 +1,69 @@
+==============================================================================
+projet1- FILS DE CABLE - Details de commande                                  
+==============================================================================
+projet1- FILS DE CABLE - Details de commande.Test4 :: Details de commande     
+==============================================================================
+Details de commande_commande Non-valide                                 
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\Ilham BOURHAIM\PycharmProjects\pythonProject13\projet1- FILS DE CABLE - Details de commande\test4.robot:10
+    T:  Details de commande_commande Non-valide    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\Ilham BOURHAIM\PycharmProjects\pythonProject13\projet1- FILS DE CABLE - Details de commande\test4.robot:14
+      entrer les details de la commande    ${Prénom}    ${Nom}    ${Nom_d_entreprise}    ${Numéro_nom_de_rue}    ${Ville}    ${Région_Département}    ${Code_postal}    ${Téléphone}    ${E_mail}
+      |  ${Prénom} = Ilham (str)
+      |  ${Nom} = Brh (str)
+      |  ${Nom_d_entreprise} = AB (str)
+      |  ${Numéro_nom_de_rue} = Hay Nahda (str)
+      |  ${Ville} = Rabat (str)
+      |  ${Région_Département} = Rabat-Salé-Kénitra (str)
+      |  ${Code_postal} = 20200 (str)
+      |  ${Téléphone} = 0651780789 (str)
+      |  ${E_mail} = IlhamBrh1@gmail.com (str)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\Ilham BOURHAIM\PycharmProjects\pythonProject13\PO\CommandePage4.robot:34
+      Click Element    ${Commander}
+      |  ${Commander} = xpath://button[@id='place_order'] (str)
+______________________________________________________________________________
+| FAIL |
+StaleElementReferenceException: Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=110.0.5481.177)
+Stacktrace:
+Backtrace:
+	(No symbol) [0x007337D3]
+	(No symbol) [0x006C8B81]
+	(No symbol) [0x005CB36D]
+	(No symbol) [0x005CE0FB]
+	(No symbol) [0x005CDFD0]
+	(No symbol) [0x005CE250]
+	(No symbol) [0x00604BFD]
+	(No symbol) [0x006026DB]
+	(No symbol) [0x005FFD0B]
+	(No symbol) [0x005FE4D8]
+	(No symbol) [0x005F3253]
+	(No symbol) [0x0061B41C]
+	(No symbol) [0x005F2B96]
+	(No symbol) [0x0061B774]
+	(No symbol) [0x00631215]
+	(No symbol) [0x0061B216]
+	(No symbol) [0x005F0D97]
+	(No symbol) [0x005F253D]
+	GetHandleVerifier [0x009AABF2+2510930]
+	GetHandleVerifier [0x009D8EC1+2700065]
+	GetHandleVerifier [0x009DC86C+2714828]
+	GetHandleVerifier [0x007E3480+645344]
+	(No symbol) [0x006D0FD2]
+	(No symbol) [0x006D6C68]
+	(No symbol) [0x006D6D4B]
+	(No symbol) [0x006E0D6B]
+	BaseThreadInitThunk [0x75FF00F9+25]
+	RtlGetAppContainerNamedObjectPath [0x76F77BBE+286]
+	RtlGetAppContainerNamedObjectPath [0x76F77B8E+238]
+------------------------------------------------------------------------------
+projet1- FILS DE CABLE - Details de commande.Test4 :: Details de c... | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+projet1- FILS DE CABLE - Details de commande                          | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Output:  C:\Users\Ilham BOURHAIM\PycharmProjects\pythonProject13\projet1- FILS DE CABLE - Details de commande\pabot_results\3\output.xml

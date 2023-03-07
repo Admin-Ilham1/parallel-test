@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.1 (Python 3.11.1 on win32)" generated="20230303 12:01:10.159" rpa="false" schemaversion="3">
+<suite id="s1" name="pythonProject13" source="C:\Users\Ilham BOURHAIM\PycharmProjects\pythonProject13">
+<suite id="s1-s1" name="Projet1- FILS DE CABLE - Filtre TestCases" source="C:\Users\Ilham BOURHAIM\PycharmProjects\pythonProject13\Projet1- FILS DE CABLE - Filtre_TestCases">
+<suite id="s1-s1-s1" name="test2-Cat2" source="C:\Users\Ilham BOURHAIM\PycharmProjects\pythonProject13\Projet1- FILS DE CABLE - Filtre_TestCases\test2-Cat2.robot">
+<test id="s1-s1-s1-t1" name="Cables et fils electrique-Fils de cable" line="9">
+<kw name="open the browser with URL" library="resources">
+<kw name="Create Webdriver" library="SeleniumLibrary">
+<arg>Chrome</arg>
+<doc>Creates an instance of Selenium WebDriver.</doc>
+<msg timestamp="20230303 12:01:10.663" level="INFO">Creating an instance of the Chrome WebDriver.</msg>
+<status status="PASS" starttime="20230303 12:01:10.663" endtime="20230303 12:01:12.820"/>
+</kw>
+<kw name="Go To" library="SeleniumLibrary">
+<arg>${URL}</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<msg timestamp="20230303 12:01:12.821" level="INFO">Opening url 'http://192.168.31.31/'</msg>
+<status status="PASS" starttime="20230303 12:01:12.820" endtime="20230303 12:01:19.188"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20230303 12:01:19.189" endtime="20230303 12:01:19.390"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>6</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230303 12:01:25.392" level="INFO">Slept 6 seconds</msg>
+<status status="PASS" starttime="20230303 12:01:19.391" endtime="20230303 12:01:25.392"/>
+</kw>
+<status status="PASS" starttime="20230303 12:01:10.663" endtime="20230303 12:01:25.392"/>
+</kw>
+<kw name="clicker sur Cables et fils electrique - Fils de cable" library="test2-Cat2-filtre">
+<arg>${Categories}</arg>
+<arg>${Câbles_fils_electrique}</arg>
+<arg>${FILS_DE_CABLE0}</arg>
+<msg timestamp="20230303 12:01:25.398" level="FAIL">Variable '${Categories}' not found.</msg>
+<status status="FAIL" starttime="20230303 12:01:25.395" endtime="20230303 12:01:25.398"/>
+</kw>
+<kw name="filtrer les produits by attribute" library="test2-Cat2-filtre">
+<arg>${Fabricant}</arg>
+<arg>${Couleur}</arg>
+<arg>${Isolation}</arg>
+<arg>${Le_type}</arg>
+<arg>${Matériau_conducteur}</arg>
+<arg>${Mesure_du_fil}</arg>
+<arg>${Taille_Dimension}</arg>
+<arg>${Température}</arg>
+<arg>${Tension}</arg>
+<status status="NOT RUN" starttime="20230303 12:01:25.402" endtime="20230303 12:01:25.403"/>
+</kw>
+<status status="FAIL" starttime="20230303 12:01:10.663" endtime="20230303 12:01:25.403">Variable '${Categories}' not found.</status>
+</test>
+<doc>Cables et fils electrique-Fils de cable_Partie des filtre</doc>
+<status status="FAIL" starttime="20230303 12:01:10.249" endtime="20230303 12:01:25.405"/>
+</suite>
+<status status="FAIL" starttime="20230303 12:01:10.242" endtime="20230303 12:01:25.412"/>
+</suite>
+<status status="FAIL" starttime="20230303 12:01:10.197" endtime="20230303 12:01:25.414"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="pythonProject13">pythonProject13</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1" name="Projet1- FILS DE CABLE - Filtre TestCases">pythonProject13.Projet1- FILS DE CABLE - Filtre TestCases</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1-s1" name="test2-Cat2">pythonProject13.Projet1- FILS DE CABLE - Filtre TestCases.test2-Cat2</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20230303 12:01:10.653" level="ERROR">Error in file 'C:\Users\Ilham BOURHAIM\PycharmProjects\pythonProject13\PO\test2-Cat2-filtre.robot' on line 4: Variable file '..\PageObjects\Locators.py' does not exist.</msg>
+</errors>
+</robot>

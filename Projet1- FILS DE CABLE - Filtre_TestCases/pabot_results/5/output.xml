@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.1 (Python 3.11.1 on win32)" generated="20230227 13:29:20.016" rpa="false" schemaversion="3">
+<suite id="s1" name="TestCases Fils Projet1" source="C:\Users\Ilham BOURHAIM\PycharmProjects\LoginTest\TestCases_Fils_Projet1">
+<suite id="s1-s1" name="Test3-1" source="C:\Users\Ilham BOURHAIM\PycharmProjects\LoginTest\TestCases_Fils_Projet1\test3-1.robot">
+<test id="s1-s1-t1" name="Cables et fils electrique-Fils de cable" line="20">
+<kw name="open the browser with URL" library="test3-1">
+<arg>${Browser}</arg>
+<arg>${URL}</arg>
+<kw name="Create Webdriver" library="SeleniumLibrary">
+<arg>${Browser}</arg>
+<doc>Creates an instance of Selenium WebDriver.</doc>
+<msg timestamp="20230227 13:29:21.344" level="INFO">Creating an instance of the Chrome WebDriver.</msg>
+<status status="PASS" starttime="20230227 13:29:21.343" endtime="20230227 13:29:25.483"/>
+</kw>
+<kw name="Go To" library="SeleniumLibrary">
+<arg>${URL}</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<msg timestamp="20230227 13:29:25.485" level="INFO">Opening url 'http://192.168.31.31/'</msg>
+<status status="PASS" starttime="20230227 13:29:25.484" endtime="20230227 13:29:36.126"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230227 13:29:39.128" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20230227 13:29:36.127" endtime="20230227 13:29:39.129"/>
+</kw>
+<status status="PASS" starttime="20230227 13:29:21.342" endtime="20230227 13:29:39.129"/>
+</kw>
+<kw name="clicker sur Cables et fils electrique - Fils de cable" library="test3-1">
+<arg>${Categories}</arg>
+<arg>${Câbles_fils_electrique}</arg>
+<arg>${FILS_DE_CABLE}</arg>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${Categories}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230227 13:29:39.133" level="INFO">Clicking element 'xpath://span[contains(text(),'Categories')]'.</msg>
+<msg timestamp="20230227 13:29:39.138" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Message: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=110.0.5481.177)
+Stacktrace:
+Backtrace:
+	(No symbol) [0x005C37D3]
+	(No symbol) [0x00558B81]
+	(No symbol) [0x0045B36D]
+	(No symbol) [0x0044CB66]
+	(No symbol) [0x0044C889]
+	(No symbol) [0x0045CB00]
+	(No symbol) [0x004C0AA0]
+	(No symbol) [0x004AB216]
+	(No symbol) [0x00480D97]
+	(No symbol) [0x0048253D]
+	GetHandleVerifier [0x0083ABF2+2510930]
+	GetHandleVerifier [0x00868EC1+2700065]
+	GetHandleVerifier [0x0086C86C+2714828]
+	GetHandleVerifier [0x00673480+645344]
+	(No symbol) [0x00560FD2]
+	(No symbol) [0x00566C68]
+	(No symbol) [0x00566D4B]
+	(No symbol) [0x00570D6B]
+	BaseThreadInitThunk [0x75FF00F9+25]
+	RtlGetAppContainerNamedObjectPath [0x76F77BBE+286]
+	RtlGetAppContainerNamedObjectPath [0x76F77B8E+238]
+</msg>
+<msg timestamp="20230227 13:29:39.139" level="FAIL">WebDriverException: Message: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=110.0.5481.177)
+Stacktrace:
+Backtrace:
+	(No symbol) [0x005C37D3]
+	(No symbol) [0x00558B81]
+	(No symbol) [0x0045B36D]
+	(No symbol) [0x0044CB66]
+	(No symbol) [0x0044C889]
+	(No symbol) [0x0045CB00]
+	(No symbol) [0x004C0AA0]
+	(No symbol) [0x004AB216]
+	(No symbol) [0x00480D97]
+	(No symbol) [0x0048253D]
+	GetHandleVerifier [0x0083ABF2+2510930]
+	GetHandleVerifier [0x00868EC1+2700065]
+	GetHandleVerifier [0x0086C86C+2714828]
+	GetHandleVerifier [0x00673480+645344]
+	(No symbol) [0x00560FD2]
+	(No symbol) [0x00566C68]
+	(No symbol) [0x00566D4B]
+	(No symbol) [0x00570D6B]
+	BaseThreadInitThunk [0x75FF00F9+25]
+	RtlGetAppContainerNamedObjectPath [0x76F77BBE+286]
+	RtlGetAppContainerNamedObjectPath [0x76F77B8E+238]
+</msg>
+<status status="FAIL" starttime="20230227 13:29:39.131" endtime="20230227 13:29:39.151"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230227 13:29:39.152" endtime="20230227 13:29:39.153"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${Câbles_fils_electrique}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20230227 13:29:39.153" endtime="20230227 13:29:39.153"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230227 13:29:39.154" endtime="20230227 13:29:39.154"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${FILS_DE_CABLE}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20230227 13:29:39.155" endtime="20230227 13:29:39.155"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230227 13:29:39.155" endtime="20230227 13:29:39.156"/>
+</kw>
+<status status="FAIL" starttime="20230227 13:29:39.130" endtime="20230227 13:29:39.156"/>
+</kw>
+<kw name="filtrer les produits by attribute" library="test3-1">
+<arg>${Fabricant}</arg>
+<arg>${Couleur}</arg>
+<arg>${Isolation}</arg>
+<arg>${Le_type}</arg>
+<arg>${Matériau_conducteur}</arg>
+<arg>${Mesure_du_fil}</arg>
+<arg>${Taille_Dimension}</arg>
+<arg>${Température}</arg>
+<arg>${Tension}</arg>
+<status status="NOT RUN" starttime="20230227 13:29:39.157" endtime="20230227 13:29:39.157"/>
+</kw>
+<status status="FAIL" starttime="20230227 13:29:21.340" endtime="20230227 13:29:39.158">WebDriverException: Message: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=110.0.5481.177)
+Stacktrace:
+Backtrace:
+	(No symbol) [0x005C37D3]
+	(No symbol) [0x00558B81]
+	(No symbol) [0x0045B36D]
+	(No symbol) [0x0044CB66]
+	(No symbol) [0x0044C889]
+	(No symbol) [0x0045CB00]
+	(No symbol) [0x004C0AA0]
+	(No symbol) [0x004AB216]
+	(No symbol) [0x00480D97]
+	(No symbol) [0x0048253D]
+	GetHandleVerifier [0x0083ABF2+2510930]
+	GetHandleVerifier [0x00868EC1+2700065]
+	GetHandleVerifier [0x0086C86C+2714828]
+	GetHandleVerifier [0x00673480+645344]
+	(No symbol) [0x00560FD2]
+	(No symbol) [0x00566C68]
+	(No symbol) [0x00566D4B]
+	(No symbol) [0x00570D6B]
+	BaseThreadInitThunk [0x75FF00F9+25]
+	RtlGetAppContainerNamedObjectPath [0x76F77BBE+286]
+	RtlGetAppContainerNamedObjectPath [0x76F77B8E+238]
+</status>
+</test>
+<doc>Cables et fils electrique-Fils de cable_Partie des filtre</doc>
+<status status="FAIL" starttime="20230227 13:29:20.264" endtime="20230227 13:29:39.161"/>
+</suite>
+<status status="FAIL" starttime="20230227 13:29:20.055" endtime="20230227 13:29:39.164"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="TestCases Fils Projet1">TestCases Fils Projet1</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1" name="Test3-1">TestCases Fils Projet1.Test3-1</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20230227 13:29:39.138" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Message: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=110.0.5481.177)
+Stacktrace:
+Backtrace:
+	(No symbol) [0x005C37D3]
+	(No symbol) [0x00558B81]
+	(No symbol) [0x0045B36D]
+	(No symbol) [0x0044CB66]
+	(No symbol) [0x0044C889]
+	(No symbol) [0x0045CB00]
+	(No symbol) [0x004C0AA0]
+	(No symbol) [0x004AB216]
+	(No symbol) [0x00480D97]
+	(No symbol) [0x0048253D]
+	GetHandleVerifier [0x0083ABF2+2510930]
+	GetHandleVerifier [0x00868EC1+2700065]
+	GetHandleVerifier [0x0086C86C+2714828]
+	GetHandleVerifier [0x00673480+645344]
+	(No symbol) [0x00560FD2]
+	(No symbol) [0x00566C68]
+	(No symbol) [0x00566D4B]
+	(No symbol) [0x00570D6B]
+	BaseThreadInitThunk [0x75FF00F9+25]
+	RtlGetAppContainerNamedObjectPath [0x76F77BBE+286]
+	RtlGetAppContainerNamedObjectPath [0x76F77B8E+238]
+</msg>
+</errors>
+</robot>

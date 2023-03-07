@@ -1,0 +1,31 @@
+==============================================================================
+projet1- FILS DE CABLE - Commande                                             
+==============================================================================
+projet1- FILS DE CABLE - Commande.Test4 :: Cables et fils electrique-Fils d...
+==============================================================================
+Cables et fils electrique-Fils de cable                                 
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\Ilham BOURHAIM\PycharmProjects\pythonProject13\projet1- FILS DE CABLE - Commande\test4.robot:10
+    T:  Cables et fils electrique-Fils de cable    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\Ilham BOURHAIM\PycharmProjects\pythonProject13\projet1- FILS DE CABLE - Commande\test4.robot:13
+      clicker sur un produit et passer la commande    ${clicker_Produit}    ${Ajout_Panier}    ${Commanderr}
+      |  ${clicker_Produit} = xpath://a[contains(text(),'cable souple 16mm')] (str)
+      |  ${Ajout_Panier} = xpath://button[contains(text(),'Ajouter au panier')] (str)
+      |  ${Commanderr} = xpath://header/div[1]/div[1]/div[1]/div[4]/ul[1]/li[3]/ul[1]/li[1]/div[1]/p[2]/a[2] (str)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\Ilham BOURHAIM\PycharmProjects\pythonProject13\PO\choose4.robot:10
+      Click Element    ${clicker_Produit}
+      |  ${clicker_Produit} = xpath://a[contains(text(),'cable souple 16mm')] (str)
+______________________________________________________________________________
+| FAIL |
+Element with locator 'xpath://a[contains(text(),'cable souple 16mm')]' not found.
+------------------------------------------------------------------------------
+projet1- FILS DE CABLE - Commande.Test4 :: Cables et fils electriq... | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+projet1- FILS DE CABLE - Commande                                     | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Output:  C:\Users\Ilham BOURHAIM\PycharmProjects\pythonProject13\projet1- FILS DE CABLE - Commande\pabot_results\3\output.xml

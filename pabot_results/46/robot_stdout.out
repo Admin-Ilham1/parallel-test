@@ -1,0 +1,42 @@
+==============================================================================
+pythonProject13                                                               
+==============================================================================
+pythonProject13.Projet1- FILS DE CABLE - Filtre TestCases                     
+==============================================================================
+pythonProject13.Projet1- FILS DE CABLE - Filtre TestCases.Test7 :: Cables e...
+==============================================================================
+Alimentations-Batteries                                                 
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\Ilham BOURHAIM\PycharmProjects\pythonProject13\Projet1- FILS DE CABLE - Filtre_TestCases\test7.robot:9
+    T:  Alimentations-Batteries    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\Ilham BOURHAIM\PycharmProjects\pythonProject13\Projet1- FILS DE CABLE - Filtre_TestCases\test7.robot:12
+      filtrer les produits by attribute    ${Fabricant}    ${Couleur}    ${Isolation}    ${Le_type}    ${Matériau_conducteur}    ${Mesure_du_fil}    ${Taille_Dimension}    ${Température}    ${Tension}
+      |  ${Fabricant} = 7 (str)
+      |  ${Couleur} = 1 (str)
+      |  ${Isolation} = 1 (str)
+      |  ${Le_type} = 1 (str)
+      |  ${Matériau_conducteur} = 1 (str)
+      |  ${Mesure_du_fil} = 1 (str)
+      |  ${Taille_Dimension} = 1 (str)
+      |  ${Température} = 1 (str)
+      |  ${Tension} = 1 (str)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\Ilham BOURHAIM\PycharmProjects\pythonProject13\PO\test7-filtre.robot:51
+      Wait Until Element Is Visible    ${Produit_1_8}
+      |  ${Produit_1_8} = xpath://a[contains(text(),'H07VK1.5N')] (str)
+______________________________________________________________________________
+| FAIL |
+Element 'xpath://a[contains(text(),'H07VK1.5N')]' not visible after 5 seconds.
+------------------------------------------------------------------------------
+pythonProject13.Projet1- FILS DE CABLE - Filtre TestCases.Test7 ::... | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+pythonProject13.Projet1- FILS DE CABLE - Filtre TestCases             | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+pythonProject13                                                       | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Output:  C:\Users\Ilham BOURHAIM\PycharmProjects\pythonProject13\pabot_results\46\output.xml

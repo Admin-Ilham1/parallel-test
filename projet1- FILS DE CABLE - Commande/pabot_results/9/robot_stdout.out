@@ -1,0 +1,58 @@
+==============================================================================
+projet1- FILS DE CABLE - Commande                                             
+==============================================================================
+projet1- FILS DE CABLE - Commande.test3-Cat2 :: Cables et fils electrique-F...
+==============================================================================
+Cables et fils electrique-Fils de cable                                 
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\Ilham BOURHAIM\PycharmProjects\pythonProject13\projet1- FILS DE CABLE - Commande\test3-Cat2.robot:10
+    T:  Cables et fils electrique-Fils de cable    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\Ilham BOURHAIM\PycharmProjects\pythonProject13\projet1- FILS DE CABLE - Commande\test3-Cat2.robot:12
+      click an Cables et fils electrique-Fils de cable    ${Categories}    ${Câbles_fils}    ${FILS_CABLE0}
+      |  ${Categories} = xpath://span[contains(text(),'Categories')] (str)
+      |  ${Câbles_fils} = xpath://header/div[1]/div[2]/div[1]/div[1]/ul[1]/li[2]/div[2]/div[1]/ul[1]/li[2]/a[1] (str)
+      |  ${FILS_CABLE0} = xpath://a[contains(text(),'Fils de cable')] (str)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\Ilham BOURHAIM\PycharmProjects\pythonProject13\PO\clickAn_Cat2.robot:13
+      Click Element    ${FILS_CABLE0}
+      |  ${FILS_CABLE0} = xpath://a[contains(text(),'Fils de cable')] (str)
+______________________________________________________________________________
+| FAIL |
+ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=110.0.5481.177)
+Stacktrace:
+Backtrace:
+	(No symbol) [0x003037D3]
+	(No symbol) [0x00298B81]
+	(No symbol) [0x0019B230]
+	(No symbol) [0x001CE337]
+	(No symbol) [0x001C3253]
+	(No symbol) [0x001EB41C]
+	(No symbol) [0x001C2B96]
+	(No symbol) [0x001EB774]
+	(No symbol) [0x00201215]
+	(No symbol) [0x001EB216]
+	(No symbol) [0x001C0D97]
+	(No symbol) [0x001C253D]
+	GetHandleVerifier [0x0057ABF2+2510930]
+	GetHandleVerifier [0x005A8EC1+2700065]
+	GetHandleVerifier [0x005AC86C+2714828]
+	GetHandleVerifier [0x003B3480+645344]
+	(No symbol) [0x002A0FD2]
+	(No symbol) [0x002A6C68]
+	(No symbol) [0x002A6D4B]
+	(No symbol) [0x002B0D6B]
+	BaseThreadInitThunk [0x75FF00F9+25]
+	RtlGetAppContainerNamedObjectPath [0x76F77BBE+286]
+	RtlGetAppContainerNamedObjectPath [0x76F77B8E+238]
+	(No symbol) [0x00000000]
+------------------------------------------------------------------------------
+projet1- FILS DE CABLE - Commande.test3-Cat2 :: Cables et fils ele... | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+projet1- FILS DE CABLE - Commande                                     | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Output:  C:\Users\Ilham BOURHAIM\PycharmProjects\pythonProject13\projet1- FILS DE CABLE - Commande\pabot_results\9\output.xml

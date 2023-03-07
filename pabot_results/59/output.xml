@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.1 (Python 3.11.1 on win32)" generated="20230303 12:02:55.428" rpa="false" schemaversion="3">
+<suite id="s1" name="pythonProject13" source="C:\Users\Ilham BOURHAIM\PycharmProjects\pythonProject13">
+<suite id="s1-s1" name="Projet1- FILS DE CABLE - Filtre TestCases" source="C:\Users\Ilham BOURHAIM\PycharmProjects\pythonProject13\Projet1- FILS DE CABLE - Filtre_TestCases">
+<suite id="s1-s1-s1" name="test3-Cat2" source="C:\Users\Ilham BOURHAIM\PycharmProjects\pythonProject13\Projet1- FILS DE CABLE - Filtre_TestCases\test3-Cat2.robot">
+<test id="s1-s1-s1-t1" name="Cables et fils electrique-Fils de cable" line="8">
+<kw name="open the browser with URL" library="resources">
+<kw name="Create Webdriver" library="SeleniumLibrary">
+<arg>Chrome</arg>
+<doc>Creates an instance of Selenium WebDriver.</doc>
+<msg timestamp="20230303 12:02:56.165" level="INFO">Creating an instance of the Chrome WebDriver.</msg>
+<status status="PASS" starttime="20230303 12:02:56.164" endtime="20230303 12:02:57.971"/>
+</kw>
+<kw name="Go To" library="SeleniumLibrary">
+<arg>${URL}</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<msg timestamp="20230303 12:02:57.973" level="INFO">Opening url 'http://192.168.31.31/'</msg>
+<status status="PASS" starttime="20230303 12:02:57.972" endtime="20230303 12:03:03.176"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20230303 12:03:03.176" endtime="20230303 12:03:03.474"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>6</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230303 12:03:09.478" level="INFO">Slept 6 seconds</msg>
+<status status="PASS" starttime="20230303 12:03:03.476" endtime="20230303 12:03:09.478"/>
+</kw>
+<status status="PASS" starttime="20230303 12:02:56.163" endtime="20230303 12:03:09.485"/>
+</kw>
+<kw name="clicker sur Cables et fils electrique - Fils de cable" library="test3-Cat2-filtre">
+<arg>${Categories}</arg>
+<arg>${Câbles_fils_electrique}</arg>
+<arg>${FILS_DE_CABLE0}</arg>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${Categories}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230303 12:03:09.491" level="INFO">Clicking element 'xpath://span[contains(text(),'Categories')]'.</msg>
+<status status="PASS" starttime="20230303 12:03:09.489" endtime="20230303 12:03:09.885"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230303 12:03:12.888" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20230303 12:03:09.886" endtime="20230303 12:03:12.888"/>
+</kw>
+<kw name="Mouse Down" library="SeleniumLibrary">
+<arg>${Câbles_fils_electrique}</arg>
+<doc>Simulates pressing the left mouse button on the element ``locator``.</doc>
+<msg timestamp="20230303 12:03:12.889" level="INFO">Simulating Mouse Down on element 'xpath://header/div[1]/div[2]/div[1]/div[1]/ul[1]/li[2]/div[2]/div[1]/ul[1]/li[2]/a[1]'.</msg>
+<status status="PASS" starttime="20230303 12:03:12.888" endtime="20230303 12:03:13.277"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230303 12:03:18.279" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20230303 12:03:13.277" endtime="20230303 12:03:18.279"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${FILS_DE_CABLE0}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230303 12:03:18.284" level="INFO">Clicking element 'xpath://a[contains(text(),'Fils de cable')]'.</msg>
+<msg timestamp="20230303 12:03:19.044" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-1.png"&gt;&lt;img src="selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg timestamp="20230303 12:03:19.046" level="FAIL">ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=110.0.5481.177)
+Stacktrace:
+Backtrace:
+	(No symbol) [0x012037D3]
+	(No symbol) [0x01198B81]
+	(No symbol) [0x0109B230]
+	(No symbol) [0x010CE337]
+	(No symbol) [0x010C3253]
+	(No symbol) [0x010EB41C]
+	(No symbol) [0x010C2B96]
+	(No symbol) [0x010EB774]
+	(No symbol) [0x01101215]
+	(No symbol) [0x010EB216]
+	(No symbol) [0x010C0D97]
+	(No symbol) [0x010C253D]
+	GetHandleVerifier [0x0147ABF2+2510930]
+	GetHandleVerifier [0x014A8EC1+2700065]
+	GetHandleVerifier [0x014AC86C+2714828]
+	GetHandleVerifier [0x012B3480+645344]
+	(No symbol) [0x011A0FD2]
+	(No symbol) [0x011A6C68]
+	(No symbol) [0x011A6D4B]
+	(No symbol) [0x011B0D6B]
+	BaseThreadInitThunk [0x75FF00F9+25]
+	RtlGetAppContainerNamedObjectPath [0x76F77BBE+286]
+	RtlGetAppContainerNamedObjectPath [0x76F77B8E+238]
+</msg>
+<status status="FAIL" starttime="20230303 12:03:18.280" endtime="20230303 12:03:19.055"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230303 12:03:19.057" endtime="20230303 12:03:19.057"/>
+</kw>
+<status status="FAIL" starttime="20230303 12:03:09.488" endtime="20230303 12:03:19.058"/>
+</kw>
+<kw name="filtrer les produits by attribute" library="test3-Cat2-filtre">
+<arg>${Fabricant}</arg>
+<arg>${Couleur}</arg>
+<arg>${Isolation}</arg>
+<arg>${Le_type}</arg>
+<arg>${Matériau_conducteur}</arg>
+<arg>${Mesure_du_fil}</arg>
+<arg>${Taille_Dimension}</arg>
+<arg>${Température}</arg>
+<arg>${Tension}</arg>
+<status status="NOT RUN" starttime="20230303 12:03:19.058" endtime="20230303 12:03:19.058"/>
+</kw>
+<status status="FAIL" starttime="20230303 12:02:56.163" endtime="20230303 12:03:19.059">ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=110.0.5481.177)
+Stacktrace:
+Backtrace:
+	(No symbol) [0x012037D3]
+	(No symbol) [0x01198B81]
+	(No symbol) [0x0109B230]
+	(No symbol) [0x010CE337]
+	(No symbol) [0x010C3253]
+	(No symbol) [0x010EB41C]
+	(No symbol) [0x010C2B96]
+	(No symbol) [0x010EB774]
+	(No symbol) [0x01101215]
+	(No symbol) [0x010EB216]
+	(No symbol) [0x010C0D97]
+	(No symbol) [0x010C253D]
+	GetHandleVerifier [0x0147ABF2+2510930]
+	GetHandleVerifier [0x014A8EC1+2700065]
+	GetHandleVerifier [0x014AC86C+2714828]
+	GetHandleVerifier [0x012B3480+645344]
+	(No symbol) [0x011A0FD2]
+	(No symbol) [0x011A6C68]
+	(No symbol) [0x011A6D4B]
+	(No symbol) [0x011B0D6B]
+	BaseThreadInitThunk [0x75FF00F9+25]
+	RtlGetAppContainerNamedObjectPath [0x76F77BBE+286]
+	RtlGetAppContainerNamedObjectPath [0x76F77B8E+238]
+</status>
+</test>
+<doc>Cables et fils electrique-Fils de cable_Partie des filtre</doc>
+<status status="FAIL" starttime="20230303 12:02:55.474" endtime="20230303 12:03:19.060"/>
+</suite>
+<status status="FAIL" starttime="20230303 12:02:55.471" endtime="20230303 12:03:19.068"/>
+</suite>
+<status status="FAIL" starttime="20230303 12:02:55.444" endtime="20230303 12:03:19.071"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="pythonProject13">pythonProject13</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1" name="Projet1- FILS DE CABLE - Filtre TestCases">pythonProject13.Projet1- FILS DE CABLE - Filtre TestCases</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1-s1" name="test3-Cat2">pythonProject13.Projet1- FILS DE CABLE - Filtre TestCases.test3-Cat2</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
