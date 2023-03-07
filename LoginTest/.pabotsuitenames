@@ -1,0 +1,8 @@
+datasources:59cce66876d71ec77e7390b896c3381580fc9e7c
+commandlineoptions:97d170e1550eee4afc0af065b78cda302a97674c
+suitesfrom:no-suites-from-option
+file:311154372bf0533342b04fb92d2ac42061e71b44
+--suite LoginTest.LoginTest
+--suite LoginTest.LoginTest1
+--suite LoginTest.LoginTest2
+--suite LoginTest.LoginTest3

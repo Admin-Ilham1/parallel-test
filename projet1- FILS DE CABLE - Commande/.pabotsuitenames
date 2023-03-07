@@ -1,0 +1,16 @@
+datasources:6b352a18474926c5d7d56ca8bb4537510e83405d
+commandlineoptions:97d170e1550eee4afc0af065b78cda302a97674c
+suitesfrom:no-suites-from-option
+file:4ded22c15858a34cc19788088dcd1aabecec7cdf
+--suite projet1- FILS DE CABLE - Commande.Test1
+--suite projet1- FILS DE CABLE - Commande.Test2
+--suite projet1- FILS DE CABLE - Commande.Test3
+--suite projet1- FILS DE CABLE - Commande.Test4
+--suite projet1- FILS DE CABLE - Commande.test1-Acc
+--suite projet1- FILS DE CABLE - Commande.test1-Cat2
+--suite projet1- FILS DE CABLE - Commande.test2-Acc
+--suite projet1- FILS DE CABLE - Commande.test2-Cat2
+--suite projet1- FILS DE CABLE - Commande.test3-Acc
+--suite projet1- FILS DE CABLE - Commande.test3-Cat2
+--suite projet1- FILS DE CABLE - Commande.test4-Acc
+--suite projet1- FILS DE CABLE - Commande.test4-Cat2
