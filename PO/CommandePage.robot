@@ -30,7 +30,7 @@ valider la commande
                         sleep       4
                         input text          ${Téléphone1}                 ${Téléphone}
                         input text          ${E_mail1}                    ${E_mail}
-                        sleep       4
+                        sleep       6
                         select checkbox     ${Accepter_les_conditions}
                         sleep   5
                         click element       ${Commander}
