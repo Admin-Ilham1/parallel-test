@@ -4,16 +4,14 @@ Library                     SeleniumLibrary
 Variables                   ../customLibraries/Locators.py
 
 *** Variables ***
-#${Browser}          Chrome
-#${URL}              http://192.168.31.31/
-${Fabricant}       1
-${Courant_sortie_Max}      1
+${Courant_sortie_Max}      2
 ${Fréquence_de_fonctio_Max}       1
 ${Fréquence_de_fonctio_Min}      1
 ${Nombre_de_sortie}     1
-${Puissance}        1
-${Température_de_foncti}       1
-${Tension_sortie}       1
+${Taille_Dimension}     1
+${Tension_d_entrée_Max}        1
+${Tension_d_entrée_Min}       1
+${Tension_sortie1}       1
 
 
 *** Keywords ***
@@ -27,29 +25,27 @@ clicker sur alimentations-Transformateurs
                             sleep       5
 
 filtrer les produits by attribute
-                    [Arguments]         ${Fabricant}       ${Courant_sortie_Max}        ${Fréquence_de_fonctio_Max}       ${Fréquence_de_fonctio_Min}      ${Nombre_de_sortie}     ${Puissance}        ${Température_de_foncti}       ${Tension_sortie}
-                    select from list by index         ${Fabricant2}             ${Fabricant}
+                    [Arguments]         ${Courant_sortie_Max}        ${Fréquence_de_fonctio_Max}       ${Fréquence_de_fonctio_Min}      ${Nombre_de_sortie}     ${Taille_Dimension}        ${Tension_d_entrée_Max}       ${Tension_d_entrée_Min}        ${Tension_sortie1}
+                    select from list by index           ${Courant_sortie_Max22}         ${Courant_sortie_Max}
                     sleep       6
-                    select from list by index          ${Courant_sortie_Max2}       ${Courant_sortie_Max}
+                    select from list by index           ${Fréquence_de_fonctio_Max22}           ${Fréquence_de_fonctio_Max}
                     sleep       5
-                    select from list by index       ${Fréquence_de_fonctio_Max2}              ${Fréquence_de_fonctio_Max}
+                    select from list by index           ${Fréquence_de_fonctio_Min22}           ${Fréquence_de_fonctio_Min}
                     sleep       5
-                    select from list by index         ${Fréquence_de_fonctio_Min2}           ${Fréquence_de_fonctio_Min}
+                    select from list by index           ${Nombre_de_sortie22}                   ${Nombre_de_sortie}
                     sleep       5
-                    select from list by index          ${Nombre_de_sortie2}                  ${Nombre_de_sortie}
+                    select from list by index           ${Taille_Dimension22}                   ${Taille_Dimension}
                     sleep       5
-                    select from list by index         ${Puissance2}                  ${Puissance}
+                    select from list by index            ${Tension_d_entrée_Max22}               ${Tension_d_entrée_Max}
                     sleep       5
-                    #select from list by index       xpath://body/div[@id='wrapper']/main[@id='main']/div[1]/div[1]/div[1]/aside[1]/div[2]/div[7]/div[2]/select[1]
-                    #sleep       5
-                    select from list by index                        ${Température_de_foncti2}             ${Température_de_foncti}
+                    select from list by index            ${Tension_d_entrée_Min22}              ${Tension_d_entrée_Min}
                     sleep       5
-                    select from list by index                           ${Tension_sortie2}                ${Tension_sortie}
+                    select from list by index           ${Tension_sortie22}                     ${Tension_sortie1}
                     sleep       5
                     click element                                   ${button_filtre}
                     sleep       4
-                    wait until element is visible                   ${PRODUITS_1}
-                    sleep       5
+                    wait until element is visible                   ${PRODUITS_2}
+                    sleep       3
 
 
 

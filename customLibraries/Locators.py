@@ -56,7 +56,7 @@ Produit_1_9 = "xpath://a[contains(text(),'cable souple 16mm')]"
 ###
 
 ## ALIMENTATIONS
-#1- Transformateurs
+#1- Transformateurs   Produits - 1
 Alimentations  =  "xpath://header/div[1]/div[2]/div[1]/div[1]/ul[1]/li[2]/div[2]/div[1]/ul[1]/li[1]/a[1]"
 TRANSFORMATEURS = "css:body.page-template-default.page.page-id-775.theme-flatsome.woocommerce-js.yith-wcan-pro.lightbox.nav-dropdown-has-shadow.nav-dropdown-has-border.page-template-blank.page-template-blank-php:nth-child(2) div.content-area section.section:nth-child(3) div.section-content.relative:nth-child(2) div.row:nth-child(2) div.col.medium-4.small-12.large-4:nth-child(2) div.col-inner.box-shadow-3:nth-child(1) div.row.row-collapse div.col.medium-8.large-8:nth-child(2) div.col-inner h3:nth-child(2) > a:nth-child(1)"
 
@@ -73,3 +73,13 @@ Tension_sortie2 = "xpath://body/div[@id='wrapper']/main[@id='main']/div[1]/div[1
 button_filtre = "xpath://button[contains(text(),'Filtre')]"
 PRODUITS_1 = "xpath://a[contains(text(),'Transformateur myrra 230V 6V 800mA')]"
 
+####                Produits - 2
+Courant_sortie_Max22 = "xpath://body/div[@id='wrapper']/main[@id='main']/div[1]/div[1]/div[1]/aside[1]/div[2]/div[2]/div[2]/select[1]"
+Fréquence_de_fonctio_Max22 = "xpath://body/div[@id='wrapper']/main[@id='main']/div[1]/div[1]/div[1]/aside[1]/div[2]/div[2]/div[2]/select[1] "
+Fréquence_de_fonctio_Min22 = "xpath://body/div[@id='wrapper']/main[@id='main']/div[1]/div[1]/div[1]/aside[1]/div[2]/div[3]/div[2]/select[1]"
+Nombre_de_sortie22 = "xpath://body/div[@id='wrapper']/main[@id='main']/div[1]/div[1]/div[1]/aside[1]/div[2]/div[4]/div[2]/select[1]"
+Taille_Dimension22 = "xpath://body/div[@id='wrapper']/main[@id='main']/div[1]/div[1]/div[1]/aside[1]/div[2]/div[5]/div[2]/select[1]"
+Tension_d_entrée_Max22 = "xpath://body/div[@id='wrapper']/main[@id='main']/div[1]/div[1]/div[1]/aside[1]/div[2]/div[6]/div[2]/select[1]"
+Tension_d_entrée_Min22 = "xpath://body/div[@id='wrapper']/main[@id='main']/div[1]/div[1]/div[1]/aside[1]/div[2]/div[7]/div[2]/select[1]"
+Tension_sortie22 = "xpath://body/div[@id='wrapper']/main[@id='main']/div[1]/div[1]/div[1]/aside[1]/div[2]/div[8]/div[2]/select[1]"
+PRODUITS_2 = "xpath://a[contains(text(),'Transformateur 220V/9V AC')]"

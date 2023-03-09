@@ -13,7 +13,7 @@ ${Fréquence_de_fonctio_Min}      1
 ${Nombre_de_sortie}     1
 ${Puissance}        1
 ${Température_de_foncti}       1
-${Tension_sortie}       1
+${Tension_sortie1}       1
 
 
 *** Keywords ***
@@ -27,7 +27,7 @@ clicker sur alimentations-Transformateurs
                             sleep       5
 
 filtrer les produits by attribute
-                    [Arguments]         ${Fabricant}       ${Courant_sortie_Max}        ${Fréquence_de_fonctio_Max}       ${Fréquence_de_fonctio_Min}      ${Nombre_de_sortie}     ${Puissance}        ${Température_de_foncti}       ${Tension_sortie}
+                    [Arguments]         ${Fabricant}       ${Courant_sortie_Max}        ${Fréquence_de_fonctio_Max}       ${Fréquence_de_fonctio_Min}      ${Nombre_de_sortie}     ${Puissance}        ${Température_de_foncti}       ${Tension_sortie1}
                     select from list by index         ${Fabricant2}             ${Fabricant}
                     sleep       6
                     select from list by index          ${Courant_sortie_Max2}       ${Courant_sortie_Max}
@@ -44,7 +44,7 @@ filtrer les produits by attribute
                     #sleep       5
                     select from list by index                        ${Température_de_foncti2}             ${Température_de_foncti}
                     sleep       5
-                    select from list by index                           ${Tension_sortie2}                ${Tension_sortie}
+                    select from list by index                           ${Tension_sortie2}                ${Tension_sortie1}
                     sleep       5
                     click element                                   ${button_filtre}
                     sleep       4
