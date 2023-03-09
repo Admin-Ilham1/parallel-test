@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation       Alimentationa-Transformateurs_Partie de commande
+Documentation       Alimentation-Transformateurs_Partie de commande
 Library             SeleniumLibrary
 Resource            ../PO/resources.robot
 Resource            ../PO/clickAn-Transf.robot
