@@ -6,7 +6,7 @@ Variables           ../customLibraries/clickAn.py
 *** Keywords ***
 click an Cables et fils electrique-Fils de cable
                   [Arguments]           ${Categories}       ${Câbles_fils}      ${FILS_CABLE}
-                  Maximize Browser Window
+                  #Maximize Browser Window
                   click element       ${Categories}
                   sleep       5
                   click element       ${Câbles_fils}

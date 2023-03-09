@@ -29,9 +29,9 @@ entrer les details de la commande
                         sleep       4
                         input text          ${Téléphone1}                 ${Téléphone}
                         input text          ${E_mail1}                    ${E_mail}
+                        #Maximize Browser Window
                         sleep       4
-####### j’accepte pas les conditions générales *
-                        click element       ${Commander}
+                        click element       ${Commander}            ####### j’accepte pas les conditions générales *
                         sleep       7
 
 Wait until it checks
