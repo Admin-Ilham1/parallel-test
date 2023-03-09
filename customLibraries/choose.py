@@ -46,3 +46,6 @@ PRODUITS_7_Fils_de_cable ="xpath://a[contains(text(),'Colliers de câblage 292X3
 
 Ruban = "xpath://h5[contains(text(),'Ruban')]"
 PRODUITS_8_Fils_de_cable = "xpath://a[contains(text(),'Ruban ADHESIF gris')]"
+
+
+Ajout_Panier_Trans = "xpath://tbody/tr[@id='product-row-1198']/td[5]/div[1]/form[1]/div[1]/button[1]"
